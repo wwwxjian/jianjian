@@ -1,0 +1,100 @@
+* { margin: 0; padding: 0; }
+
+html, body { width: 100%; }
+
+a { text-decoration: none; }
+
+ul li { list-style: none; }
+
+#car { width: 100%; height: auto; background: #f6f6f6; }
+#car .container { width: 990px; margin: auto; }
+
+#null-car { display: none; height: 370px; background: #f6f6f6; position: relative; }
+#null-car img { position: absolute; top: 80px; left: 150px; }
+#null-car h4 { font-size: 24px; font-weight: normal; color: #5d5d5d; position: absolute; top: 105px; left: 411px; }
+#null-car div { background: #e93b39; position: absolute; top: 156px; right: 327px; }
+#null-car div a { display: inline-block; width: 192px; height: 40px; font-size: 14px; line-height: 40px; text-align: center; color: #fff; }
+
+#head { height: 70px; background: #323232; }
+#head .contai { width: 990px; margin: auto; }
+#head .contai div:first-child { float: left; }
+#head .contai div:last-child { float: right; }
+
+#main { background: #f6f6f6; min-height: 370px; padding-bottom: 60px; }
+#main .p_one { display: none; font-size: 12px; padding: 40px 0 5px 18px; }
+#main .p_one a { color: red; }
+#main .p_one a:hover { text-decoration: underline;}
+#main .p_tow { display: none; font-size:12px; padding: 40px 0 5px 18px; color:#666;}
+#main .p_tow span { color: #e93b39; cursor: pointer;}
+#main .p_tow span:hover { text-decoration:underline;}
+#main .kuang { width: 986px; border: 1px solid #f1f1f1; padding: 1px; background: #fff; position: relative; z-index: 1; overflow: hidden; }
+#main .kuang table { border-collapse: collapse; border-spacing: 0; }
+#main .kuang table thead { display: inline-block; font-size: 12px; color: #666; font-family: tahoma,arial,\5b8b\4f53,sans-serif; height: 48px; background: #ececec; line-height: 48px; font-weight: normal; }
+#main .kuang table thead input { vertical-align: middle; }
+#main .kuang table tbody tr { display: block; color: #666; padding: 20px 40px 15px 28px; background: #fff; border: 1px solid #ececec; font-size: 12px; }
+#main .kuang table tbody tr td:nth-child(2) div { width: 80px; height: 80px; border: 1px solid #ececec; margin: 0 15px 0 34px; }
+#main .kuang table tbody tr td:nth-child(2) img { width: 80px; height: 80px; }
+#main .kuang table tbody tr td:nth-child(3) p:nth-child(1) { width: 244px; }
+#main .kuang table tbody tr td:nth-child(3) p:nth-child(1) a { color: #333; }
+#main .kuang table tbody tr td:nth-child(3) p:nth-child(1) a:hover { text-decoration: underline; }
+#main .kuang table tbody tr td:nth-child(3) p:nth-child(2) { margin-top: 10px; color: #999; }
+#main .kuang table tbody tr td:nth-child(4) span { display: inline-block; width: 50px; text-align: center; margin: 0 45px 0 36px; }
+#main .kuang table tbody tr td:nth-child(5) div { width: 60px; margin-right: 50px; }
+#main .kuang table tbody tr td:nth-child(6) div span { display: inline-block; width: 12px; height: 18px; line-height: 16px; text-align: center; color: #666; cursor: pointer; background-color: #fff; border: 1px solid #eaeaea; position: relative; }
+#main .kuang table tbody tr td:nth-child(6) div span:first-child { left: 4px; }
+#main .kuang table tbody tr td:nth-child(6) div span:last-child { left: -3px; }
+#main .kuang table tbody tr td:nth-child(6) div input { width: 30px; height: 18px; line-height: 18px; text-align: center; border: 1px solid #eaeaea; border-left: 0; border-right: 0; color: #666; }
+#main .kuang table tbody tr td:nth-child(7) div { margin: 0 60px 0 65px; width:68px; color: red; font-weight: bold; }
+#main .kuang table tbody tr td:nth-child(8) span { cursor: pointer; }
+#main .kuang table tbody tr td:nth-child(8) span:hover { color: red; text-decoration: underline; }
+#main .bto { width: 988px; height: 204px; background: #fff; margin-top: 10px; margin: auto; font-size: 12px; overflow: hidden; }
+#main .bto section { margin: 20px 45px 29px 30px; }
+#main .bto section .bto-1 { float: left; }
+#main .bto section .bto-1 div:first-child .icon { font-size: 20px; margin-left: 18px; }
+#main .bto section .bto-1 div:first-child .deleAll { cursor: pointer; margin-left: 5px; }
+#main .bto section .bto-1 div:first-child .deleAll:hover { color: red; }
+#main .bto section .bto-1 div:last-child { width: 78px; height: 25px; border: 1px solid #e93b39; color: #e93b39; line-height: 25px; text-align: center; margin-top: 120px; cursor: pointer; }
+#main .bto section .bto-2 { float: right; }
+#main .bto section .bto-2 div { margin-bottom: 10px; }
+#main .bto section .bto-2 div:nth-child(1) { margin-left: 148px; }
+#main .bto section .bto-2 div:nth-child(2) { margin-left: 148px; }
+#main .bto section .bto-2 div:nth-child(3) { margin-left: 160px; }
+#main .bto section .bto-2 div:nth-child(4) span { font-size: 22px; color: #e93b39; }
+#main .bto section .bto-2 div:nth-child(5) { width: 136px; height: 40px; background-color: #e4e4e4; color: #999; font-weight: bold; font-size: 14px; line-height: 40px; text-align: center; margin-left: 117px; margin-top: 18px; cursor: not-allowed; }
+#main .bto section .bto-2 div:nth-child(5) :hover { background-color: #d32220; }
+
+#lunbo { height: 265px; background: #fff; margin-bottom: 20px; }
+#lunbo .ttt { height: 39px; background: #ececec; font-size: 12px; line-height: 40px; border-top: 1px solid #f1f1f1; border-left: 1px solid #f1f1f1; border-right: 1px solid #f1f1f1; }
+#lunbo .ttt p { padding-left: 24px; border-top: 1px solid #fff; border-left: 1px solid #fff; border-right: 1px solid #fff; }
+#lunbo .lun { height: 226px; position: relative; }
+#lunbo .lun section { margin: 30px 35px 0 35px; height: 226px; overflow: hidden; }
+#lunbo .lun section ul { height: 165px; display: inline-block; position: relative; overflow: hidden;}
+#lunbo .lun section ul li { float: left; margin: 0 15px; width: 154px; }
+#lunbo .lun section ul li img { width: 120px; height: 120px; margin: 0 16px; border: 1px solid #ececec; }
+#lunbo .lun section ul li p { height: 18px; font-size: 12px; line-height: 18px; overflow: hidden; width: 100%; text-align: center; padding-top: 2px; }
+#lunbo .lun section span { line-height: 140px; font-size: 45px; position: absolute; color: #8e8e8e; z-index: 5; cursor: pointer; }
+#lunbo .lun section .left { left: 8px; }
+#lunbo .lun section .right { right: 8px; }
+
+#link { height: 155px; background: #f6f6f6; border-bottom: 1px solid #e3e3e3; border-top: 2px solid #fff; }
+#link .link-1 { float: left; padding: 30px 52px 22px 188px; border-right: 1px solid #e3e3e3; }
+#link .link-2 { height: 155px; float: left; width: 336px; border-right: 1px solid #e3e3e3; border-left: 2px solid #fff; }
+#link .link-2 div { float: left; width: 136px; font-size: 12px; color: #999; }
+#link .link-2 div p:first-child { margin-top: 8px; margin-bottom: 4px; }
+#link .link-2 div img { padding: 8px; border: 2px solid #cbcbcb; }
+#link .link-2 div:first-child { margin-left: 32px; }
+#link .link-3 { height: 155px; float: left; width: 245px; border-right: 1px solid #e3e3e3; border-left: 2px solid #fff; }
+#link .link-3 ul { float: left; width: 122px; margin-top: 22px; font-size: 12px; color: #666; }
+#link .link-3 ul li { padding-bottom: 10px; cursor: pointer; }
+#link .link-3 ul li:hover { color: #111; }
+
+#foot { height: 35px; font-size: 12px; color: #999; line-height: 35px; border-top: 2px solid #fff; }
+#foot span { display: inline-block; vertical-align: top; }
+#foot ul { display: inline-block; }
+#foot ul li { display: inline-block; }
+#foot ul li:nth-child(1) img { width: 84px; height: 31px; margin-right: 5px; }
+#foot ul li:nth-child(2) img { width: 84px; height: 31px; margin-right: 5px; }
+#foot ul li:nth-child(3) img { width: 24px; height: 28px; }
+#foot ul li { float: left; }
+
+/*# sourceMappingURL=car.css.map */

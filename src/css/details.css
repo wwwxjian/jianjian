@@ -1,0 +1,89 @@
+    #main { background: #ededed; }
+#main .container { background: #fff;}
+#main .one { height: 64px; background: #ededed; }
+#main .one span { line-height: 70px; font-size: 14px; color: #666; }
+#main .one .an { cursor: pointer;}
+#main .one .an:hover { color: red; }
+#main .one span:nth-child(4) { float: right; }
+#main .tow { position: fixed; left: 50%; bottom: 13px; margin-left: -732px; width: 120px; height: 164px; z-index: 2; box-shadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.1); }
+#main .three { width: 36px; cursor: pointer; position: fixed; left: 50%; margin-left: 610px; top: 226px; }
+#main .three div:nth-child(1) { height:36px; background:url("../img/details/kf.jpg");}
+#main .three div:nth-child(2) { display:none; height:36px; background: #fff url("../img/details/tow.png") -38px 0; border-top: 1px solid #ededed;}
+#main .three div:nth-child(3) { display:none; height:36px; background: #fff url("../img/details/tow.png") -38px -34px; border-top: 1px solid #ededed;}
+#main .three section { display:none; position:fixed; right:181px; top:262px; border:4px solid #fff; background:#fff;}
+#main .three section p { font-size:12px; text-align:center;}
+#main .box { height: 650px; width: 480px; background: #fff; }
+#main .box .left { position: relative; display: inline-block; margin: 40px 30px 0 40px; }
+#main .box .left .top { width: 480px; border: 1px solid #ededed; }
+#main .box .left .top ul { width: 84px; display: inline-block; border-right: 1px solid #ededed; }
+#main .box .left .top ul li { height: 84px; cursor: pointer; }
+#main .box .left .top ul li img { height: 78px; margin-left: 2px; margin-top: 2px; }
+#main .box .left .top .now {width: 400px; height: 400px; position: absolute; top: 1px; left: 82px; }
+#main .box .left .top .now img { margin-left: 4px; margin-top:4px; width: 395px; height: 416px; display: none; position:absolute;}
+#main .box .left .top .now .shade { width:200px; height:210px; background:rgba(0, 0, 0, 0.2); position:absolute; z-index:10; display:none;}
+#main .box .left .top .view { height:420px; width: 420px; overflow: hidden; position:absolute; background:#fff; right:-90%; top:0; z-index:8;border:1px solid #ededed; display:none;}
+#main .box .left .top .view img { position: absolute; width:800px; height:840px;}
+#main .box .left .jing { padding: 20px 0 0 14px; }
+#main .box .left .jing li { float: left; margin-right: 25px; }
+#main .box .left .jing li:last-child { margin-right: 0;}
+#main .box .left .jing li a { color: #666; font-size: 12px; }
+#main .box .left .jing i { display: inline-block; width: 18px; height: 18px; margin-right: 3px; vertical-align: middle; background: url("../img/details/detail_icon3.png"); }
+#main .box .left .jing li:nth-child(1) i { background-position: 0 -160px; margin-right: 6px; }
+#main .box .left .jing li:nth-child(2) i { background-position: 0 -200px; margin-right: 6px; }
+#main .box .left .jing li:nth-child(3) i { background-position: 0 -243px; }
+#main .box .left .jing li:nth-child(5) i { background-position: 0 -40px; }
+#main .box .right { width: 600px; position: absolute; right: 315px; top: 280px; }
+#main .box .right h2 { font-size: 18px; font-weight: normal; padding: 0 0 20px 20px; border-bottom: 1px dotted #999; }
+#main .box .right .aaa { padding: 15px 0 0px 20px; color: #666; border-bottom: 1px dotted #999; }
+#main .box .right .aaa p { font-size: 12px; margin-bottom: 20px; }
+#main .box .right .aaa p span:nth-child(1) { display: inline-block; width: 76px; }
+#main .box .right .aaa .ss { font-size: 10px; color: #e93a38; font-weight: bold; }
+#main .box .right .aaa .tt { font-size: 22px; color: #e93a38; font-weight: bold; }
+#main .box .right .aaa i { color: #e93a38; font-weight: bold; }
+#main .box .right .bbb { padding: 24px 0 0 20px; font-size: 12px; }
+#main .box .right .bbb .bb-1 { margin-bottom: 16px; }
+#main .box .right .bbb .bb-1 span { display: inline-block; width: 76px; }
+#main .box .right .bbb .bb-1 ul { display: inline-block; vertical-align: middle; }
+#main .box .right .bbb .bb-1 ul li { float: left; width: 40px; padding: 5px 0; margin-right: 12px; text-align: center; border: 1px solid #999; cursor: pointer; }
+#main .box .right .bbb .bb-1 ul .active { border: 2px solid red;}
+#main .box .right .bbb .bb-2 { margin-bottom: 30px; }
+#main .box .right .bbb .bb-2 span:nth-child(1) { display: inline-block; width: 76px; }
+#main .box .right .bbb .bb-2 input { width: 34px; height: 20px; border: none; text-align: center; }
+#main .box .right .bbb .bb-2 div { display: inline-block; border: 1px solid #efefef; }
+#main .box .right .bbb .bb-2 div .add { display: inline-block; width: 22px; height: 20px; background: #f2f3f0; text-align: center; line-height: 20px; font-size: 18px; font-weight: bolder; cursor: pointer; }
+#main .box .right .bbb .bb-2 div .sub { display: inline-block; width: 22px; height: 20px; background: #f2f3f0; text-align: center; line-height: 20px; font-size: 18px; font-weight: bolder; cursor: pointer; }
+#main .box .right .bbb .bb-3 img { float: left; width: 168px; height: 168px; margin-right: 18px; }
+#main .box .right .bbb .bb-3 div { float: left; display: inline-block; width: 160px; height: 45px; margin-right: 18px; }
+#main .box .right .bbb .bb-3 .buy { color: #fff; font-size: 16px; font-weight: bolder; line-height: 45px; text-align: center; background: #e93a38; cursor: pointer; }
+#main .box .right .bbb .bb-3 .car { height: 41px; color: #e93a38; font-size: 16px; font-weight: bolder; line-height: 45px; text-align: center; background: #fff; border: 2px solid #e93a38; cursor: pointer; }
+#main .box .right .bbb .bb-3 p { position: absolute; bottom: -25px; left: 50px; }
+
+.kong { height: 38px; background: #ededed; }
+
+
+/* 自定义弹窗 */
+.mark { display:none; width: 100%; height: 100%; position: fixed; top: 0; left: 0; z-index: 5; background: rgba(0, 0, 0, 0.6);}
+.mark .pop-up { width:420px; height:190px; position:fixed; top:242px; left:700px; border:3px solid #fff; background:#fff;}
+.mark .pop-up .p1 { height:40px; background:#463a7e; font-size:16px; color:#fff;}
+.mark .pop-up .p1 span:first-child { line-height:40px; margin-left:20px;}
+.mark .pop-up .p1 span:last-child { font-size:22px; float:right; cursor:pointer; margin-right:8px; }
+.mark .pop-up .p2 { margin:40px 0 30px 180px; font-size:16px; color:#463a7e;}
+.mark .pop-up .p3 { font-size:12px;}
+.mark .pop-up .p3 span { display:inline-block; width:130px; height:30px; line-height:30px; text-align:center; cursor: pointer;}
+.mark .pop-up .p3 span:first-child { background:#e93b39; color: #fff; margin:0 10px 0 74px;}
+.mark .pop-up .p3 span:first-child:hover { background:#d32220;}
+.mark .pop-up .p3 span:last-child { background:#ededed; color: #333;}
+.mark .pop-up .p3 span:last-child:hover { background:#ccc;}
+
+
+/* 商品详情信息 */
+#mation { background:#ededed;}
+#mation .container { overflow: hidden;}
+#mation .left{ width: 200px; margin-right:25px; font-size:12px; display:inline-block; float: left;}
+#mation .left .name{ height:36px; background:#333; text-align:center; line-height:36px; color:#fff;}
+#mation .left img { margin-bottom:20px; box-shadow: 0 2px 5px #ccc;}
+#mation .right{ display: inline-block;}
+#mation .right ul li{ float:left; width:151px; font-size:12px; height:36px; text-align:center; line-height:36px; background:#333; color:#fff; cursor:pointer; box-shadow: 0 2px 5px #ccc; border-right:1px solid #fff;}
+#mation .right ul .active { background:#7f69b3;}
+#mation .right div { display:none;}
+#mation .right span { display: inline-block; width: 200px; height: 36px; line-height:36px; text-align:center; color:#fff; background:#e93a38; cursor: pointer;}

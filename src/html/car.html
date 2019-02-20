@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../css/car.css">
+    <link rel="stylesheet" href="../iconfont/iconfont.css">
+    <script src="../js/jquery-1.10.1.min.js"></script>
+    <script src="../js/jquery.cookie.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/car.js"></script>
+</head>
+<body>
+    
+    <section id="car">
+
+        <!-- header -->
+        <header id="head">
+            <div class="contai">
+                <div><img src="../img/car/logo.png" alt=""></div>
+                <div><img src="../img/car/c_05.jpg" alt=""></div>
+            </div>
+        </header>
+
+        <section class="container">
+
+            <!-- main -->
+            <main id="main">
+                <p class="p_one"><span></span> <a class="out" href="javascript:;"> &nbsp;退出</a></p>
+                <p class="p_tow">现在&nbsp; <span class="goin">登录</span> &nbsp;您购物车的商品将永久被保存</p>
+                <section class="kuang">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th width="75">
+                                    <input id="choseAll-1" type="checkbox">
+                                    <label for="choseAll-1">全选</label>
+                                </th>
+                                <th width="355">商品名称</th>
+                                <th width="96">发货站</th>
+                                <th width="96">价格</th>
+                                <th width="140">数量</th>
+                                <th width="110">金额小计</th>
+                                <th width="115">操作</th>
+                            </tr>
+                        </thead>
+                        <tbody id="car_goods">
+                            <!-- <tr>
+                                <td><input class="check" type="checkbox"></td>
+                                <td width="97" valign="top">
+                                    <div>
+                                        <img src="../img/car/pic_01.jpg" alt="">
+                                    </div>
+                                </td>
+                                <td class="good_name" valign="top">
+                                    <p><a href="">FURLA/芙拉女士多色Metropolis牛皮迷你单肩斜挎包 链条包 BGZ7</a></p>
+                                    <p>颜色：大红色</p>
+                                </td>
+                                <td valign="top">
+                                    <span>中国大陆</span>
+                                </td>
+                                <td valign="top">
+                                    <div>
+                                        <span>￥</span> <span class="danjia">1888</span>
+                                    </div>
+                                </td>
+                                <td valign="top">
+                                    <div>
+                                        <span class="sub">-</span>
+                                        <input class="numb" type="text" value="1">
+                                        <span class="add">+</span>
+                                    </div>
+                                </td>
+                                <td valign="top">
+                                    <div>
+                                        <span>￥</span> <span class="xiaoji"></span>
+                                    </div>
+                                </td>
+                                <td valign="top">
+                                    <span class="dele">删除</span>
+                                </td>
+                            </tr> -->
+    
+                        </tbody>
+                    </table>
+                </section>
+                
+                <div class="bto">   
+                    <section>
+                        <div class="bto-1">
+                            <div>
+                                <input id="choseAll-2" type="checkbox">  <label for="choseAll-2">全选</label>
+                                <i class="inconfont icon">&#xe60b;</i> <span class="deleAll">删除选中商品</span>
+                            </div>
+                            <div>继续购物</div>
+                        </div>
+                        <div class="bto-2">
+                            <div>商品数量总计：<span class="allnum">0</span> 件</div>
+                            <div>包装数量总计：<span>0</span> 件</div>
+                            <div>返利库币：<span>0</span> 库币</div>
+                            <div>商品金额总计（不含税金和运费）：<span class="total-price">0.00</span></div>
+                            <div>立即结算</div>
+                        </div>
+                    </section>
+                </div>
+
+            </main>
+
+
+            <!-- null-car -->
+            <div id="null-car">
+                <img src="../img/car/null_car.png" alt="">
+                <h4>购物车内暂时没有商品，您可以：</h4>
+                <div><a href="../index.html">返回首页挑选商品</a></div>
+            </div>
+
+
+            <!-- lunbo -->
+            <div id="lunbo">
+                <div class="ttt">
+                    <p>猜你喜欢</p>
+                </div>
+                
+                <div class="lun">
+                    <section>
+                        <span class="left">&lt;</span>
+                        <span class="right">&gt;</span>
+                        <ul>
+                            <li><img src="../img/car/lunbo/tu_01.jpg" alt="">
+                                <p>莫斯奇诺/MOSCHINO 19年春夏 连帽 男性 logo 抽绳 黑色 男卫衣 1701-227#227#1555</p>
+                                <p>488元</p>
+                            </li>
+                            <li><img src="../img/car/lunbo/tu_02.jpg" alt="">
+                                <p>琳达法罗/Linda Farrow 18年春夏 青少年 半框 经典 黑色 太阳镜 DVN160C7SUN black</p>
+                                <p>568元</p>
+                            </li>
+                            <li><img src="../img/car/lunbo/tu_03.jpg" alt="">
+                                <p>芙拉/FURLA 19年春夏 水桶包 女士 抽绳 菱格纹 红色 单肩包 994269#000#RT0</p>
+                                <p>399元</p>
+                            </li>
+                            <li><img src="../img/car/lunbo/tu_04.jpg" alt="">
+                                <p>琳达法罗/Linda Farrow 18年春夏 青少年 弧形框 经典 棕色 太阳镜 LFL668C6SUN bronze</p>
+                                <p>996元</p>
+                            </li>
+                            <li><img src="../img/car/lunbo/tu_05.jpg" alt="">
+                                <p>琳达法罗/Linda Farrow 18年春夏 青少年 蛤蟆镜 经典 银色 太阳镜 LFL425C14SUN silver</p>
+                                <p>288元</p>
+                            </li>
+                            <li><img src="../img/car/lunbo/tu_06.jpg" alt="">
+                                <p>塞乔·罗西/Sergio Rossi 18年秋冬 断码 40 女士 时尚 尖头 黑色 短靴 A78790MCRM131000</p>
+                                <p>469元</p>
+                            </li>
+                            <li><img src="../img/car/lunbo/tu_07.jpg" alt="">
+                                <p>Pierre Lannier/连尼亚 Interest 系列 休闲时尚简约女士手表</p>
+                                <p>388元</p>
+                            </li>
+                            <li><img src="../img/car/lunbo/tu_08.jpg" alt="">
+                                <p>卡尔文·克莱因/Calvin Klein 18年秋冬 男性 人头印花 圆领 白色 男卫衣 J30J310570 100</p>
+                                <p>500元</p>
+                            </li>
+                            <li><img src="../img/car/lunbo/tu_09.jpg" alt="">
+                                <p>亚历山大·王/ALEXANDER WANG 19年春夏 修身 女士 字母logo 黑色 女士短袖T恤 4C491087C3#FT7062R19#001</p>
+                                <p>489元</p>
+                            </li>
+                            <li><img src="../img/car/lunbo/tu_010.jpg" alt="">
+                                <p>纪梵希/Givenchy 19年春夏 圆领 男士 菱格纹 拼色 黑色 男士针织衫/毛衣 BM90764Y1T#000#973</p>
+                                <p>999元</p>
+                            </li>
+                            <li><img src="../img/car/lunbo/tu_011.jpg" alt="">
+                                <p>高田贤三/KENZO 18年秋冬 男性 大眼睛 百搭 浅灰色 男士短袖T恤 F865TS049.4YC_95</p>
+                                <p>800元</p>
+                            </li>
+                            <li><img src="../img/car/lunbo/tu_012.jpg" alt="">
+                                <p>Mondaine/瑞士国铁   简约时尚皮带轻质腕表MSE.40121.LB</p>
+                                <p>610元</p>
+                            </li>
+                            <li><img src="../img/car/lunbo/tu_013.jpg" alt="">
+                                <p>汤丽柏琦/Tory Burch 18年秋冬 女性 绒面尖头鞋 撞色 黑色 短靴 46920 black</p>
+                                <p>379元</p>
+                            </li>
+                            <li><img src="../img/car/lunbo/tu_014.jpg" alt="">
+                                <p>塞乔·罗西/Sergio Rossi 18年秋冬 女士 方跟鞋 拼接 银色 短靴 A78331MCAL073243</p>
+                                <p>788元</p>
+                            </li>
+                            <li><img src="../img/car/lunbo/tu_015.jpg" alt="">
+                                <p>ARMANI EXCHANGE/ARMANI EXCHANGE 黑色 男士破洞磨白牛仔裤 6ZZJ22-Z1DUZ-0204 18秋冬</p>
+                                <p>233元</p>
+                            </li>
+                            <li><img src="../img/car/lunbo/tu_016.jpg" alt="">
+                                <p>GUCCI/古驰  男士毛衣 灰色</p>
+                                <p>450元</p>
+                            </li>
+                            <li><img src="../img/car/lunbo/tu_017.jpg" alt="">
+                                <p>ARMANI EXCHANGE/ARMANI EXCHANGE 橙色 男士套头衫 6ZZM1F-ZMB1Z-1439 18秋冬</p>
+                                <p>369元</p>
+                            </li>
+                            <li><img src="../img/car/lunbo/tu_018.jpg" alt="">
+                                <p>THE SHOP TK/THE SHOP TK 男士休闲时尚连帽拼接长袖男卫衣61633732</p>
+                                <p>288元</p>
+                            </li>
+                            <li><img src="../img/car/lunbo/tu_019.jpg" alt="">
+                                <p>Picto 中性款灰绿色表盘 红色表带 金色表圈 43377-4320MG</p>
+                                <p>300元</p>
+                            </li>
+                            <li><img src="../img/car/lunbo/tu_020.jpg" alt="">
+                                <p>【精选】 18年春夏 PRADA/普拉达 小牛皮 红棕色 厚底 男士商务休闲鞋</p>
+                                <p>488元</p>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+
+
+        </section>
+
+
+        <!-- link -->
+        <section id="link">
+            <center>
+                <div class="link-1">
+                    <img src="../img/car/CCC_03.png" alt="">
+                </div>
+                <div class="link-2">
+                    <center>
+                        <div>
+                            <p>关注寺库微信</p>
+                            <img src="../img/car/weixin.jpg" alt="">
+                            <p>扫一扫有惊喜</p>
+                        </div>
+                        <div>
+                            <p>下载寺库APP</p>
+                            <img src="../img/car/app.jpg" alt="">
+                            <p>扫一扫有惊喜</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="link-3">
+                    <ul>
+                        <li>加入寺库</li>
+                        <li>联系我们</li>
+                        <li>帮助中心</li>
+                        <li>免责声明</li>
+                        <li>寺库微博</li>
+                    </ul>
+                    <ul>
+                        <li>关于寺库</li>
+                        <li>支付方式</li>
+                        <li>售后服务</li>
+                        <li>礼品采购</li>
+                        <li>友情链接</li>
+                    </ul>
+                </div>
+            </center>
+        </section>
+
+
+        <!-- footer -->
+        <footer id="foot">
+            <center>
+                <span>京ICP备09084709号-3 京公安备11010102001392</span>
+                <ul>
+                    <li><img src="../img/car/foot_pic01.png" alt=""></li>
+                    <li><img src="../img/car/foot_pic02.png" alt=""></li>
+                    <li><img src="../img/car/gongshangju.png" alt=""></li>
+                </ul>
+            </center>
+        </footer>
+        
+
+    </section>
+
+</body>
+</html>

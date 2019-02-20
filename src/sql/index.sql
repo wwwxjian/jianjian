@@ -1,0 +1,16 @@
+INSERT INTO `index` VALUES (1, 'OMEGA/欧米茄', 'OMEGA/欧米茄星座系列女士石英腕表123.15.27.60.51.001', 38730.00, 'goods_01');
+INSERT INTO `index` VALUES (2, 'SOPHIA WEBSTER/SOPHIA WEBSTER', 'SOPHIA WEBSTER/SOPHIA WEBSTER 18年秋冬 女士 撞色 尖头鞋 黑色 短靴 SAM18019 black', 3390.00, 'goods_02');
+INSERT INTO `index` VALUES (3, 'GUCCI/古驰', 'GUCCI/古驰 18新款Coco Capitán男士黑色皮革印花涂鸦标志抽绳背包', 16835.00, 'goods_03');
+INSERT INTO `index` VALUES (4, 'Chaumet/尚美', '【预售7-15天发货】Chaumet/尚美 Jeux de Liens 欢·缘 满钻 K金 手镯 082180', 73119.00, 'goods_04');
+INSERT INTO `index` VALUES (5, 'BALMAIN/宝曼', 'BALMAIN/宝曼 黑色双排扣西装外套女士西服  BM2730426199', 16000.00, 'goods_05');
+INSERT INTO `index` VALUES (6, 'THOM BROWNE/THOM BROWNE', 'THOM BROWNE/THOM BROWNE 女士黑色亮面牛皮手提包 FAP077A 00216 001', 6999.00, 'goods_06');
+INSERT INTO `index` VALUES (7, 'OMEGA/欧米茄', 'OMEGA/欧米茄星座系列女士石英腕表123.15.27.60.51.001', 38730.00, 'goods_07');
+INSERT INTO `index` VALUES (8, 'Raf Simons/Raf Simons', 'Raf Simons/Raf Simons 18年秋冬 男士 logo 撞色 黑色 男士牛仔裤 18231010033 09935', 6186.00, 'goods_08');
+INSERT INTO `index` VALUES (9, 'Monica Vinader/莫尼卡维纳德', '【刘雯同款】Monica Vinader/莫尼卡维纳德 S925银镀18K金手链RP-BM-FICH-NON', 1800.00, 'goods_09');
+INSERT INTO `index` VALUES (10, 'Audemars Piguet/爱彼', 'AudemarsPiguet/爱彼皇家橡树离岸系列男士自动机械腕表15710ST.OO.A010CA.01', 187205.00, 'goods_10');
+INSERT INTO `index` VALUES (11, 'Valentino/华伦天奴', 'Valentino/华伦天奴  休闲运动鞋 PY2S0723 WHC', 8154.00, 'goods_11');
+INSERT INTO `index` VALUES (12, 'MANU ATELIER/MANU ATELIER', 'MANU ATELIER/MANU ATELIER 18年秋冬 女士 小方包 复古 红色 斜挎包 2017151#000#SM000', 3237.00, 'goods_12');
+INSERT INTO `index` VALUES (13, 'Stella McCartney/丝黛拉麦卡妮', '丝黛拉麦卡妮/Stella McCartney 18年秋冬 女士 字母 V领 混色 女士针织衫/毛衣 526683S1903_8492', 3909.00, 'goods_13');
+INSERT INTO `index` VALUES (14, 'Van Cleef & Arpels/梵克雅宝', 'Van Cleef & Arpels/梵克雅宝 Vintage Alhambra系列女士手链 五朵绿色四叶草图案 18K金 孔雀石 女士手链VCARL80900', 35000.00, 'goods_14');
+INSERT INTO `index` VALUES (15, 'FENDI/芬迪', 'FENDI/芬迪  男士板鞋 7E1071 TTY', 8809.00, 'goods_15');
+INSERT INTO `index` VALUES (16, 'Malone Souliers/Malone Souliers', 'Malone Souliers/Malone Souliers 18年秋冬 女 细跟 尖头鞋 黑色 及踝靴 MADISON70-1#000#SM000', 2909.00, 'goods_16');

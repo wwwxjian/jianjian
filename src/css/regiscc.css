@@ -1,0 +1,24 @@
+#main { height: 610px; background: #fff; }
+#main section { width: 1100px; height: 430px; margin: 100px auto; }
+#main h1 { font-size: 26px; color: #d20202; text-align: center; }
+#main h3 { font-size: 18px; margin-top: 12px; color: #000; text-align: center; }
+#main .left { float: left; width: 549px; height: 200px; border-right: 1px dotted #000; margin-top: 60px; }
+#main .left div { margin-bottom: 30px; }
+#main .left div span { font-size: 14px; color: #000; vertical-align: middle; line-height: 30px; }
+#main .left div:first-child { margin-top: 18px; }
+#main .left div:first-child input { margin-right: 50px; }
+#main .left div:nth-child(3) select { margin-right: 26px; }
+#main .left select { width: 120px; height: 30px; border: 1px solid #999; }
+#main .right { float: left; height: 200px; margin-top: 80px; }
+#main .right ul { width: 550px; }
+#main .right ul li { float: left; width: 78px; height: 30px; background: #ededed; text-align: center; margin: 0 30px 30px 0; cursor: pointer; }
+#main .right ul li a { line-height: 30px; font-size: 12px; color: #000; }
+#main .right ul a:hover { color: #f19108; }
+#main .right ul li:first-child { margin-left: 40px; }
+#main .right ul li:nth-child(5n) { margin-right: 0; }
+#main .right ul li:nth-child(6) { margin-left: 40px; }
+#main .right ul li:nth-child(11) { margin-left: 40px; }
+#main .enter { width: 150px; height: 46px; background: #e93b3a; margin-top: 280px; }
+#main .enter a { display: inline-block; width: 150px; line-height: 46px; text-align: center; font-size: 14px; color: #fff; }
+
+/*# sourceMappingURL=regiscc.css.map */

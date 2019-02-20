@@ -1,0 +1,80 @@
+#main{
+    height: 720px;
+    background: #fdf8f4;
+    padding: 20px 0;    
+    .container{
+        width: 1200px;
+        height: 720px;
+        background: url('../img/login/login_03.jpg') center;
+        position: relative;
+        .show{
+            width: 382px;
+            // height: 512px;
+            background: #fff;
+            float: right;
+            margin-top: 140px;    
+            .register{
+                width: 310px;
+                padding: 30px 35px;
+                label{
+                    font-size: 12px;
+                    color: #666;                      
+                }
+                span{
+                    float: right;
+                    font-size: 12px;
+                    color: #999;
+                }
+                .fl{
+                    float: none;
+                    margin-left: 3px;
+                }
+                .inp{
+                    width: 310px;
+                    height: 40px;
+                    margin: 12px 0 12px 0;
+                    border: 1px solid #dedede;
+                }
+                .inp-last{
+                    display: none;
+                }
+                .check{
+                    position: relative;
+                    top: 2px;
+                }
+                div{
+                    width: 100%;
+                    height: 50px;
+                    background: #f19108;
+                    font-size: 16px;
+                    color: #fff;
+                    text-align: center;
+                    line-height: 50px;
+                    cursor: pointer;
+                    margin: 20px 0 12px 0;
+                }
+                p{
+                    font-size: 12px;
+                    color: #999;
+                    margin-top: 30px;
+                    a{
+                        color: #f19108;
+                    }
+                }
+                .yzm{
+                    display: none;
+                    label{
+                        display: block;
+                        margin-bottom: 10px;
+                    }
+                    input{
+                        width: 100px;
+                        height: 35px;
+                        margin-left: 5px;
+                        border: 1px solid #dedede;
+                    }
+                }
+            }
+        }
+    }
+}
